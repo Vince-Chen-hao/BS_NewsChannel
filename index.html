@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Bootstrap Theme</title>
+</head>
+
+
+
+    <body >
+
+
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">SPORTS VISION</a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                  <a href="column.html" class="nav-link">Columns</a>
+                </li>
+              <li class="nav-item">
+                <a href="collection.html" class="nav-link">Collection</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+  <!-- SHOWCASE SLIDER -->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-wrap="false" data-ride="carousel"><!--carousel公式 -->
+      <ol class="carousel-indicators"><!--公式之一需使用ol，indicators下方會產生列表虛線共三組 -->
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li><!-- 使用背景輪播圖案，在css設定連結 -->
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner"><!--輪播式圖片的文字內容 -->
+        <div class="carousel-item carousel-image-1 active"><!--公式item，並附上圖片編號-->
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-center mb-5"><!-- sm(5xx))尺寸便會消失-->
+              <h1 class="display-4">LeBron James exclusive interview on Lakers,Kevin Durant and more</h1>
+              <p class="lead"> John Willians  |  Tuesday at 7 pm</p><!--p公式會使用lead -->
+              <a href="#" class="btn btn-danger btn-lg">Book now</a> <!--簡易的a連結及bottom組合-->
+            </div>
+          </div>
+        </div>
+
+
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-center mb-5">
+              <h1 class="display-4">Who tops this season's final Power Rankings?              </h1>
+              <p class="lead"> Jane Carey  |  Wednesday at 8 pm
+              </p>
+              <a href="#" class="btn btn-danger btn-lg">Book now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-left mb-5">
+              <h1 class="display-4">7 things to watch in regular season's final week
+              </h1>
+              <p class="lead">John Stockton |  Friday at 9 pm
+              </p>
+              <a href="#" class="btn btn-danger btn-lg">Book now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev"><!--左右側移動指標公式 -->
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+
+      <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+    <!--HOME ICON SECTION  -->
+    <section id="home-icons" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4 text-center">
+              <i class="fas fa-broadcast-tower fa-3x mb-2"></i> 
+              <h3>Live Broadcast</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+          </div>
+          <div class="col-md-4 mb-4 text-center">
+             <i class="fas fa-chart-area fa-3x mb-2"></i>
+           
+            <h3>Match Analysis</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+          </div>
+          
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-tv fa-3x mb-2   "></i>
+    
+            <h3>Lastest News</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- VIDEO PLAY -->
+  <section id="video-play">
+    <div class="dark-overlay"> <!-- 背景暗色 -->
+      <div class="row">
+        <div class="col">
+          <div class="container p-5"><!-- padding -->
+            <a href="#" class="video" data-video="https://www.youtube.com/embed/SjJ08V166uU" data-toggle="modal" data-target="#videoModal">
+              <i class="fas fa-play fa-3x"></i><!--data-toggle 通常會伴隨一個icon，告知系統在點擊後會觸發另一個行動 -->
+            </a>
+            <h1>Watch Our Publicity Film</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- VIDEO MODAL -->
+    <div class="modal fade" id="videoModal"> <!--點擊後淡化原視窗背景顏色 -->
+      <div class="modal-dialog"><!-- 影片左右置中進行-->
+        <div class="modal-content">
+          <div class="modal-body">
+            <button class="close" data-dismiss="modal"><!--關閉鈕 -->
+              <span>&times;</span>
+            </button>
+            <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+  
+    <script>
+      // Get the current year for the copyright
+      $('#year').text(new Date().getFullYear());
+  
+      // Configure Slider
+      $('.carousel').carousel({
+        interval: 2000,
+        pause: 'hover'
+      });
+  
+  // cancel 輪播功能 
+  //$('.carousel').carousel({
+  //interval: false
+//})
+
+  
+      // Lightbox Init
+      $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+      });
+  
+      // Video Play
+      $(function () {
+        // Auto play modal video
+        $(".video").click(function () {
+          var theModal = $(this).data("target"),
+            videoSRC = $(this).attr("data-video"),
+            videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+          $(theModal + ' iframe').attr('src', videoSRCauto);
+          $(theModal + ' button.close').click(function () { 
+            $(theModal + ' iframe').attr('src', videoSRC);
+          });
+        });
+      });
+  
+    </script>
+
+<!-- BLOG SECTION -->
+<section id="blog" class="py-3">
+  <div class="container">
+      
+    <h2 class="pt-4">HOT NEWS</h2>
+    <div class="row">
+      <div class="col">
+        <div class="card-columns">
+          <div class="card text-center">
+            <img src="https://www.foxsportsasia.com/tachyon/2019/09/neymar-cropped_13l1ayqr6iewa1m6n73tgk8avh.jpg?w=960" alt="" class="img-fluid card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">Neymar praises improving PSG</h4>
+              <small class="text-muted">UEFA | June 28, 2019</small>
+              <hr>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, aliquid! Cupiditate deserunt eligendi error iure quod! Adipisci autem quae est!
+              </p>
+              <a href="#" class="btn btn-info" >Read more</a>
+            </div>
+          </div>
+
+
+
+          <div class="card text-center">
+            <img src="https://www.foxsportsasia.com/tachyon/2019/09/basketball-cropped_1udwuuuqc2zn51tqjpbj3zw7s5.jpg?w=569" alt="" class="img-fluid card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">NBA defining the gather in rules</h4>
+              <small class="text-muted">NBA | June 27, 2019</small>
+              <hr>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dignissimos alias labore ducimus dolor aliquid fugit recusandae excepturi fuga vero!
+              </p>
+              <a href="#" class="btn btn-info" >Read more</a>
+
+            </div>
+          </div>
+
+
+          <div class="card text-center">
+            <img src="https://www.foxsportsasia.com/tachyon/2019/09/elena-delle-donne-091919-usnews-getty-ftr_6j81lb63evg21cb2fsl04i3aw.jpg?w=1920" alt="" class="img-fluid card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">Delle Donne earns WNBA MVP</h4>
+              <small class="text-muted">WNBA | May 20, 2019</small>
+              <hr>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maxime inventore tempora totam in labore sapiente ad dolor saepe illo.
+              </p>
+              <a href="#" class="btn btn-info" >Read more</a>
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <h2 class="pt-4">TRANSFER NEWS </h2>
+    <div class="row">
+      <div class="col">
+        <div class="card-columns">
+          <div class="card text-center">
+            <img src="https://www.foxsportsasia.com/tachyon/2019/09/chelsea-cropped_19tbocqov3xhs1ppmdyxk0diav.jpg?w=1920" alt="" class="img-fluid card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">Mike Kilo praises improving PSG</h4>
+              <small class="text-muted">UEFA | June 28, 2019</small>
+              <hr>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, aliquid! Cupiditate deserunt eligendi error iure quod! Adipisci autem quae est!
+              </p>
+              <a href="#" class="btn btn-info" >Read more</a>
+            </div>
+          </div>
+
+
+
+          <div class="card text-center">
+            <img src="https://www.foxsportsasia.com/tachyon/2019/09/lewis-hamilton-car-.jpg?w=569 " alt="" class="img-fluid card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">F1 defining the gather in rules</h4>
+              <small class="text-muted">NBA | June 27, 2019</small>
+              <hr>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dignissimos alias labore ducimus dolor aliquid fugit recusandae excepturi fuga vero!
+              </p>
+              <a href="#" class="btn btn-info" >Read more</a>
+
+            </div>
+          </div>
+
+
+          <div class="card text-center">
+            <img src="https://www.foxsportsasia.com/tachyon/2019/08/olegunnarsolskjaer-cropped_1lpvm6ctev1vd1kygd3nw75pqp.jpg?w=1920" alt="" class="img-fluid card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">Daniel Vincer earns best coach</h4>
+              <small class="text-muted">WNBA | May 20, 2019</small>
+              <hr>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maxime inventore tempora totam in labore sapiente ad dolor saepe illo.
+              </p>
+              <a href="#" class="btn btn-info" >Read more</a>
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+     
+
+
+    <!-- PAGE FOOTER -->
+    <footer id="page-footer" class="text-center p-3">
+      <div class="container ">
+          <div class="row">
+              <div class="col">
+                  <p>All Rights Reseved Copyright &copy;
+                      <span id="year">
+                      </span> Sportsvision Group Asia
+                  </p>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+<script>
+  // Get the current year for the copyright
+  $('#year').text(new Date().getFullYear());
+
+  // Configure Slider
+  $('.carousel').carousel({
+    interval: 6000,
+    pause: 'hover',
+  });
+
+  // Lightbox Init
+  $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+  });
+
+  // Video Play
+  $(function () {
+    // Auto play modal video
+    $(".video").click(function () {
+      var theModal = $(this).data("target"),
+        videoSRC = $(this).attr("data-video"),
+        videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+      $(theModal + ' iframe').attr('src', videoSRCauto);
+      $(theModal + ' button.close').click(function () {
+        $(theModal + ' iframe').attr('src', videoSRC);
+      });
+    });
+  });
+
+</script>
+</body>
+
+</html>

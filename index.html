@@ -14,34 +14,36 @@
 
 
 
-<body >
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <div class="container">
-      <a href="index.html" class="navbar-brand">SPORTS VISION</a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a href="index.html" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="about.html" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-              <a href="column.html" class="nav-link">Columns</a>
-            </li>
-          <li class="nav-item">
-            <a href="collection.html" class="nav-link">Collection</a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <body >
+
+
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">SPORTS VISION</a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                  <a href="column.html" class="nav-link">Columns</a>
+                </li>
+              <li class="nav-item">
+                <a href="collection.html" class="nav-link">Collection</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
 
   <!-- SHOWCASE SLIDER -->
@@ -53,21 +55,21 @@
         <li data-target="#myCarousel" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner"><!--輪播式圖片的文字內容 -->
-        <div class="carousel-item carousel-image-1 active"><!--carousel-image-1圖片代號，在css放入url圖片位置-->
+        <div class="carousel-item carousel-image-1 active"><!--公式item，並附上圖片編號-->
           <div class="container">
-            <div class="carousel-caption text-center mb-5"><!-- sm(5xx))尺寸便會消失-->
+            <div class="carousel-caption d-none d-sm-block text-center mb-5"><!-- sm(5xx))尺寸便會消失-->
               <h1 class="display-4">LeBron James exclusive interview on Lakers,Kevin Durant and more</h1>
-              <p class="lead"> John Willians  |  Tuesday at 7 pm</p>
-              <a href="#" class="btn btn-danger btn-lg">Book now</a> 
-            </div>  
+              <p class="lead"> John Willians  |  Tuesday at 7 pm</p><!--p公式會使用lead -->
+              <a href="#" class="btn btn-danger btn-lg">Book now</a> <!--簡易的a連結及bottom組合-->
+            </div>
           </div>
         </div>
 
 
         <div class="carousel-item carousel-image-2">
           <div class="container">
-            <div class="carousel-caption text-center mb-5">
-              <h1 class="display-4">Who tops this season's final Power Rankings?</hㄉ>
+            <div class="carousel-caption d-none d-sm-block text-center mb-5">
+              <h1 class="display-4">Who tops this season's final Power Rankings?              </h1>
               <p class="lead"> Jane Carey  |  Wednesday at 8 pm
               </p>
               <a href="#" class="btn btn-danger btn-lg">Book now</a>
@@ -75,11 +77,9 @@
           </div>
         </div>
 
-        <div class="carousel-item">
-          <img src="../img/Main_BG03.jpg" alt="First slide"> <!--直接載入圖片-->
-
+        <div class="carousel-item carousel-image-3">
           <div class="container">
-            <div class="carousel-caption text-center mb-5">
+            <div class="carousel-caption d-none d-sm-block text-left mb-5">
               <h1 class="display-4">7 things to watch in regular season's final week
               </h1>
               <p class="lead">John Stockton |  Friday at 9 pm
@@ -97,17 +97,15 @@
 
       <a href="#myCarousel" data-slide="next" class="carousel-control-next">
         <span class="carousel-control-next-icon"></span>
-      </a >
+      </a>
     </div>
-    
   </section>
 
     <!--HOME ICON SECTION  -->
-
     <section id="home-icons" class="py-5">
       <div class="container">
         <div class="row">
-          <div class=" col-md-4 mb-4 text-center">
+          <div class="col-md-4 mb-4 text-center">
               <i class="fas fa-broadcast-tower fa-3x mb-2"></i> 
               <h3>Live Broadcast</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
@@ -133,9 +131,9 @@
     <!-- VIDEO PLAY -->
   <section id="video-play">
     <div class="dark-overlay"> <!-- 背景暗色 -->
-      <div class="container p-5"> 
       <div class="row">
         <div class="col">
+          <div class="container p-5"><!-- padding -->
             <a href="#" class="video" data-video="https://www.youtube.com/embed/SjJ08V166uU" data-toggle="modal" data-target="#videoModal">
               <i class="fas fa-play fa-3x"></i><!--data-toggle 通常會伴隨一個icon，告知系統在點擊後會觸發另一個行動 -->
             </a>
@@ -160,6 +158,51 @@
       </div>
     </div>
 
+      <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+  
+    <script>
+      // Get the current year for the copyright
+      $('#year').text(new Date().getFullYear());
+  
+      // Configure Slider
+      $('.carousel').carousel({
+        interval: 2000,
+        pause: 'hover'
+      });
+  
+  // cancel 輪播功能 
+  //$('.carousel').carousel({
+  //interval: false
+//})
+
+  
+      // Lightbox Init
+      $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+      });
+  
+      // Video Play
+      $(function () {
+        // Auto play modal video
+        $(".video").click(function () {
+          var theModal = $(this).data("target"),
+            videoSRC = $(this).attr("data-video"),
+            videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+          $(theModal + ' iframe').attr('src', videoSRCauto);
+          $(theModal + ' button.close').click(function () { 
+            $(theModal + ' iframe').attr('src', videoSRC);
+          });
+        });
+      });
+  
+    </script>
 
 <!-- BLOG SECTION -->
 <section id="blog" class="py-3">
@@ -170,7 +213,7 @@
       <div class="col">
         <div class="card-columns">
           <div class="card text-center">
-            <img class="img-fluid card-img-top" src="https://www.foxsportsasia.com/tachyon/2019/09/neymar-cropped_13l1ayqr6iewa1m6n73tgk8avh.jpg?w=960" alt="" >
+            <img src="https://www.foxsportsasia.com/tachyon/2019/09/neymar-cropped_13l1ayqr6iewa1m6n73tgk8avh.jpg?w=960" alt="" class="img-fluid card-img-top">
             <div class="card-body">
               <h4 class="card-title">Neymar praises improving PSG</h4>
               <small class="text-muted">UEFA | June 28, 2019</small>
@@ -180,6 +223,7 @@
               <a href="#" class="btn btn-info" >Read more</a>
             </div>
           </div>
+
 
 
           <div class="card text-center">
@@ -210,17 +254,16 @@
             </div>
           </div>
 
+
         </div>
       </div>
     </div>
-
-    
     <h2 class="pt-4">TRANSFER NEWS </h2>
     <div class="row">
       <div class="col">
         <div class="card-columns">
           <div class="card text-center">
-            <img src="https://www.foxsportsasia.com/tachyon/2019/09/chelsea-cropped_19tbocqov3xhs1ppmdyxk0diav.jpg?w=1920" alt="" class="img-fluid img-thumbnail card-img-top">
+            <img src="https://www.foxsportsasia.com/tachyon/2019/09/chelsea-cropped_19tbocqov3xhs1ppmdyxk0diav.jpg?w=1920" alt="" class="img-fluid card-img-top">
             <div class="card-body">
               <h4 class="card-title">Mike Kilo praises improving PSG</h4>
               <small class="text-muted">UEFA | June 28, 2019</small>
@@ -234,7 +277,7 @@
 
 
           <div class="card text-center">
-            <img src="https://www.foxsportsasia.com/tachyon/2019/09/lewis-hamilton-car-.jpg?w=569 " alt="" class="img-fluid  img-thumbnail card-img-top">
+            <img src="https://www.foxsportsasia.com/tachyon/2019/09/lewis-hamilton-car-.jpg?w=569 " alt="" class="img-fluid card-img-top">
             <div class="card-body">
               <h4 class="card-title">F1 defining the gather in rules</h4>
               <small class="text-muted">NBA | June 27, 2019</small>
@@ -249,7 +292,7 @@
 
 
           <div class="card text-center">
-            <img src="https://www.foxsportsasia.com/tachyon/2019/08/olegunnarsolskjaer-cropped_1lpvm6ctev1vd1kygd3nw75pqp.jpg?w=1920" alt="" class="img-fluid  img-thumbnail card-img-top">
+            <img src="https://www.foxsportsasia.com/tachyon/2019/08/olegunnarsolskjaer-cropped_1lpvm6ctev1vd1kygd3nw75pqp.jpg?w=1920" alt="" class="img-fluid card-img-top">
             <div class="card-body">
               <h4 class="card-title">Daniel Vincer earns best coach</h4>
               <small class="text-muted">WNBA | May 20, 2019</small>
@@ -269,6 +312,12 @@
 </section>
 
 
+
+
+
+     
+
+
     <!-- PAGE FOOTER -->
     <footer id="page-footer" class="text-center p-3">
       <div class="container ">
@@ -283,47 +332,46 @@
       </div>
   </footer>
 
-    <!-- Script area -->
 
-    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 
-    <script>
-      // Get the current year for the copyright
-      $('#year').text(new Date().getFullYear());
+<script>
+  // Get the current year for the copyright
+  $('#year').text(new Date().getFullYear());
 
-      // Configure Slider
-      $('.carousel').carousel({ 
-        interval: 3000,
-        pause: 'hover',
+  // Configure Slider
+  $('.carousel').carousel({
+    interval: 6000,
+    pause: 'hover',
+  });
+
+  // Lightbox Init
+  $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+  });
+
+  // Video Play
+  $(function () {
+    // Auto play modal video
+    $(".video").click(function () {
+      var theModal = $(this).data("target"),
+        videoSRC = $(this).attr("data-video"),
+        videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+      $(theModal + ' iframe').attr('src', videoSRCauto);
+      $(theModal + ' button.close').click(function () {
+        $(theModal + ' iframe').attr('src', videoSRC);
       });
+    });
+  });
 
-      // Lightbox Init
-      $(document).on('click', '[data-toggle="lightbox"]', function (event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
-      });
-
-      // Video Play
-      $(function () {
-        // Auto play modal video
-        $(".video").click(function () {
-          var theModal = $(this).data("target"),
-            videoSRC = $(this).attr("data-video"),
-            videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
-          $(theModal + ' iframe').attr('src', videoSRCauto);
-          $(theModal + ' button.close').click(function () {
-            $(theModal + ' iframe').attr('src', videoSRC);
-          });
-        });
-      });
-
-    </script>
+</script>
 </body>
 
 </html>

@@ -73,7 +73,7 @@
   }
   
 
-  
+
 
   .about-img {
     margin-top: -50px;
@@ -84,6 +84,11 @@
     background: #000;
     color: #fff;
   }
+
+  .slick-Content {
+    display:none;
+  }
+  
 
 
   #newsletter{
@@ -148,4 +153,7 @@ margin:auto;
   background:rgb(207, 218, 230);
 }
 
- 
+#icon-boxes .card{
+  box-shadow: 5px -6px 5px #b3afb3; 
+
+}

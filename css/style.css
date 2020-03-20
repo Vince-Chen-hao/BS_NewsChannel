@@ -162,3 +162,19 @@ margin:auto;
   box-shadow: 5px -6px 5px #b3afb3; 
 
 }
+
+.slick-Nav .slick-current img {
+  filter:brightness(130%);
+}
+
+.slick-Nav img{
+  transition:all 1s;
+  filter:brightness(50%)
+
+}
+
+.slick-Nav img:hover{
+  transform:scale(1.2,1.2);
+  cursor:pointer;
+  filter: drop-shadow(5px 5px 5px #333);
+}

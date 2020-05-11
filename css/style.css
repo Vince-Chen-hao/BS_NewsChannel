@@ -108,6 +108,11 @@
       /* font-size: 30px; */
       border-bottom: #fff 3px solid;
   }
+
+  .carousel-item h1{
+    font-size:35px;
+    font-weight:bold;
+  }
   
   #newsletter ::-webkit-input-placeholder {
       color: #fff;

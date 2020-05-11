@@ -1,188 +1,187 @@
-  body {
-      overflow-x: hidden;
-  }
-  
-  .navbar .nav-link {
-      font-size: 14px;
-      text-transform: uppercase;
-      padding-left: 1rem !important;
-      padding-right: 1rem !important;
-  }
-  
-  .navbar .nav-item.active {
-      border-bottom: rgb(182, 64, 64) 3px solid;
-  }
-  
-  #blog h2,
-  #icon-boxes h1 {
-      border-bottom: rgba(114, 135, 138, 0.3) 3px solid;
-      margin-bottom: 30px;
-  }
-  
-  .carousel-item {
-      height: 450px;
-  }
-  
-  .carousel-image-1 {
-      background: url('../img/Main_BG01.jpg');
-      background-size: cover;
-  }
-  
-  .carousel-image-2 {
-      background: url('../img/Main_BG02.jpg');
-      background-size: cover;
-  }
-  
-  .carousel-image-3 {
-      background: url('../img/Main_BG03.jpg');
-      background-size: cover;
-  }
-  
-  #video-play {
-      position: relative;
-      min-height: 200px;
-      background: url('../img/Video.jpg');
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      text-align: center;
-      color: #fff;
-  }
-  
-  .dark-overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.7);
-  }
-  
-  #video-play a {
-      color: #fff;
-  }
-  
-  #page-header {
-      height: 200px;
-      background: url('../img/Toppic02.jpg');
-      background-attachment: fixed;
-      background-position: cover;
-      color: #fff;
-      border-bottom: 2px rgb(218, 151, 106) solid;
-      padding-top: 30px;
-  }
-  
-  .about-img {
-      margin-top: -50px;
-  }
-  
-  #main-footer {
-      background: #000;
-      color: #fff;
-  }
-  
-  .slick-Content {
-      display: none;
-  }
-  
-  .slick-Nav {
-      border-top: rgb(218, 151, 106) 2px groove;
-      padding: 20px;
-  }
-  
-  #newsletter {
-      position: relative;
-      text-align: center;
-      background-color: #140404;
-      color: #fff;
-  }
-  
-  #newsletter input {
-      text-align: center;
-      width: 50%;
-      height: 80px;
-      font-size: 28px;
-      padding: 10px;
-      border: none;
-      background-color: #140404;
-      color: #fff;
-      /* font-size: 30px; */
-      border-bottom: #fff 3px solid;
-  }
+body {
+  overflow-x: hidden;
+}
 
-  @media screen and (max-width: 600px){
-    .carousel-item h1{
-      font-size:35px;
-      font-weight:bold;
-    }
-  }
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
 
-  
-  #newsletter ::-webkit-input-placeholder {
-      color: #fff;
+.navbar .nav-item.active {
+  border-bottom: rgb(182, 64, 64) 3px solid;
+}
+
+#blog h2,
+#icon-boxes h1 {
+  border-bottom: rgba(114, 135, 138, 0.3) 3px solid;
+  margin-bottom: 30px;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url("../img/Main_BG01.jpg");
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url("../img/Main_BG02.jpg");
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url("../img/Main_BG03.jpg");
+  background-size: cover;
+}
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/Video.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#video-play a {
+  color: #fff;
+}
+
+#page-header {
+  height: 200px;
+  background: url("../img/Toppic02.jpg");
+  background-attachment: fixed;
+  background-position: cover;
+  color: #fff;
+  border-bottom: 2px rgb(218, 151, 106) solid;
+  padding-top: 30px;
+}
+
+.about-img {
+  margin-top: -50px;
+}
+
+#main-footer {
+  background: #000;
+  color: #fff;
+}
+
+.slick-Content {
+  display: none;
+}
+
+.slick-Nav {
+  border-top: rgb(218, 151, 106) 2px groove;
+  padding: 20px;
+}
+
+#newsletter {
+  position: relative;
+  text-align: center;
+  background-color: #140404;
+  color: #fff;
+}
+
+#newsletter input {
+  text-align: center;
+  width: 50%;
+  height: 80px;
+  font-size: 28px;
+  padding: 10px;
+  border: none;
+  background-color: #140404;
+  color: #fff;
+  /* font-size: 30px; */
+  border-bottom: #fff 3px solid;
+}
+
+@media screen and (max-width: 600px) {
+  .carousel-item h1 {
+    font-size: 35px;
+    font-weight: bold;
   }
-  
-  #newsletter a {
-      color: #fff;
-  }
-  
-  #page-footer {
-      background-color: #2d5774;
-      color: #fff;
-  }
-  
-  #blog a {
-      margin: auto;
-  }
-  
-  #about-slide {
-      background-color: #460909;
-      color: #fff;
-  }
-  
-  #about .card-black {
-      margin: 10px;
-      background-color: #491404;
-      color: #fff;
-  }
-  
-  #faq .card {
-      border: #444;
-  }
-  
-  #faq a {
-      color: rgb(2, 2, 2);
-      text-decoration: none;
-  }
-  
-  #faq .card-body,
-  #faq .card-header {
-      background: rgb(207, 218, 230);
-  }
-  
-  #icon-boxes .card {
-      box-shadow: 5px -6px 5px #b3afb3;
-  }
-  
-  .slick-Nav .slick-current img {
-      filter: brightness(130%);
-  }
-  
-  .slick-Nav img {
-      transition: all 1s;
-      filter: brightness(50%)
-  }
-  
-  .slick-Nav img:hover {
-      transform: scale(1.2, 1.2);
-      cursor: pointer;
-      filter: drop-shadow(5px 5px 5px #333);
-  }
-  
-  #gallery img {
-      transition: all 1s;
-  }
-  
-  #gallery img:hover {
-      filter: drop-shadow(5px 5px 10px #333);
-      transform: scale(0.9, 0.9);
-  }
+}
+
+#newsletter ::-webkit-input-placeholder {
+  color: #fff;
+}
+
+#newsletter a {
+  color: #fff;
+}
+
+#page-footer {
+  background-color: #2d5774;
+  color: #fff;
+}
+
+#blog a {
+  margin: auto;
+}
+
+#about-slide {
+  background-color: #460909;
+  color: #fff;
+}
+
+#about .card-black {
+  margin: 10px;
+  background-color: #491404;
+  color: #fff;
+}
+
+#faq .card {
+  border: #444;
+}
+
+#faq a {
+  color: rgb(2, 2, 2);
+  text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+  background: rgb(207, 218, 230);
+}
+
+#icon-boxes .card {
+  box-shadow: 5px -6px 5px #b3afb3;
+}
+
+.slick-Nav .slick-current img {
+  filter: brightness(130%);
+}
+
+.slick-Nav img {
+  transition: all 1s;
+  filter: brightness(50%);
+}
+
+.slick-Nav img:hover {
+  transform: scale(1.2, 1.2);
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 5px #333);
+}
+
+#gallery img {
+  transition: all 1s;
+}
+
+#gallery img:hover {
+  filter: drop-shadow(5px 5px 10px #333);
+  transform: scale(0.9, 0.9);
+}
